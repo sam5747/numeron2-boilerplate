@@ -1,7 +1,4 @@
 // Iteration 8: Making scoreboard functional
-/*var urlParams = new URLSearchParams(window.location.search);
-console.log(urlParams);
-var score = urlParams.get("score");*/
 let score = localStorage.getItem("score");
 console.log("Score = "+score);
 
